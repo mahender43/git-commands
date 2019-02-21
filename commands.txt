@@ -26,7 +26,7 @@ chgrp -R otndev /repositories/repo/es/otns/common/scripts.git
 
 git clone ssh://dheeraj@172.19.79.132/repositories/repo/hw/proj/otns/l2c2x100g/fpgagcc.git padtec.hw.proj.otns.l2c2x100g.fpgagcc
 cd repo_name
-git remote add gerrit ssh://tc.nikhil.bhatia@gerrit.padtec.com.br:29418/ hw/proj/otns/l2c2x100g/fpgagcc.git
+git remote add gerrit ssh://tc.nikhil.bhatia@gerrit.padtec.com.br:29418/hw/proj/otns/l2c2x100g/fpgagcc.git
 Check git remote -v that git and geerit both are present
 cp ../padtec.fw.lib.rpc.mi.protocol.id.control/.gitignore . < --- This is needed to ignore repos which should not get checkin
 git add .
