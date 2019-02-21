@@ -1,5 +1,16 @@
 GIT CMDS 
 
+git checkout -b OTN_R0.8_Clients  ( making new branch) 
+git add filenames     ( add new files to branch)
+git commit -m "CCL/Bridge structure update for client protocols"
+git push origin OTN_R0.8_Clients
+git branch -a       ( to check for branches)
+git status   ( untracked or modified file check)
+git checkout OTN_R0.8_Alarm ( switch branch)
+git pull origin OTN_R0.8_Alarm ( pull the new code from OTN_R0.8_Alarm branch)
+git merge origin/OTN_R0.8_Alarm
+
+
 CREATE NEW REPO with name padtec.es.otns.common.scripts
 
 mkdir -p /repositories/repo/es/otns/common/scripts.git
