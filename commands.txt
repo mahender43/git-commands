@@ -10,6 +10,12 @@ git checkout OTN_R0.8_Alarm ( switch branch)
 git pull origin OTN_R0.8_Alarm ( pull the new code from OTN_R0.8_Alarm branch)
 git merge origin/OTN_R0.8_Alarm
 
+top-exec git pull branchname  ( pull the code from the branchname)
+
+git stash    ( stash the local changes to pull the code)
+git pull
+git stash apply  ( apply the stashed changes)
+
 
 CREATE NEW REPO with name padtec.es.otns.common.scripts
 
